@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64e8eaf7-3b5b-4d06-977b-85fa4ba97833" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1775392407">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="13" />
+          <entry key="crc" value="4" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="179" />
+          <entry key="json" value="4" />
+          <entry key="parquet" value="5" />
+          <entry key="scala" value="5" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="13" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="179" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Scala" value="5" />
+          <entry key="XML" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="61" />
+          <entry key="java" value="27694" />
+          <entry key="xml" value="109" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="27692" />
+          <entry key="PLAIN_TEXT" value="61" />
+          <entry key="RegExp" value="2" />
+          <entry key="XML" value="109" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/SparkStreaming/UpdateStateByKey_Suanzi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System</find>
+      <find>zookeeper</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/WordCount8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/contain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/RDD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/filter/RDD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/map/SubFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/map/RddMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/RddCllectionOprations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/flatmap/RddFlatMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/KeyValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/GroupByKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/join/join.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/join/RddJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/cogroup/CoGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/ContextUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/union/Union.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/actions/reduce/RddReduce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sort/Bean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sort/SecondSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sparksql/Sparksql.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sparksql/Text_DataFrame_Rdd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sparksql/DataFrame_Object/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sparksql/DataFrame_Object/CreateRddWithdynamic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sparksql/Paquet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sparksql/DataFrame_Object/Text_DataFrame_Rdd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamIngKafka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/ProduceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/ProduceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/ProducerThred.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/WordCount7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/DemoCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/KafkaProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/simpleproduce/SimpleProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/SimpleConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/SimpleProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kafka/example/KafkaConsumerProducerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kafka/example/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kafka/example/KafkaProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kafka/example/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/kafka/example/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sparksql/dataFrame_mysql/DataFrame_Mysql.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/SparkStreaming/WordCiount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/SparkStreaming/UpdateStateByKey_Suanzi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingDirect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingReciver.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Repository" />
+        <option name="mavenHome" value="D:/developTools/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\developTools\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-296" />
+    <option name="y" value="210" />
+    <option name="width" value="1618" />
+    <option name="height" value="710" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zqg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zqg" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zqg" type="462c0819:PsiDirectoryNode" />
+              <item name="StreamKafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545803037820" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springbootworkspace\spark\src\main\java\kafka\example" />
+      <recent name="D:\springbootworkspace\spark\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.KafkaSparkStreamingDirect">
+    <configuration name="KafkaSparkStreamingDirect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zqg.StreamKafka.KafkaSparkStreamingDirect" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zqg.StreamKafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaSparkStreamingReciver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zqg.StreamKafka.KafkaSparkStreamingReciver" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zqg.StreamKafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateStateByKey_Suanzi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zqg.SparkStreaming.UpdateStateByKey_Suanzi" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zqg.SparkStreaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCount8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zqg.WordCount8" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zqg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UpdateStateByKey_Suanzi" />
+      <item itemvalue="Application.WordCount8" />
+      <item itemvalue="Application.KafkaSparkStreamingReciver" />
+      <item itemvalue="Application.KafkaSparkStreamingDirect" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.KafkaSparkStreamingDirect" />
+        <item itemvalue="Application.KafkaSparkStreamingReciver" />
+        <item itemvalue="Application.WordCount8" />
+        <item itemvalue="Application.UpdateStateByKey_Suanzi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64e8eaf7-3b5b-4d06-977b-85fa4ba97833" name="Default Changelist" comment="" />
+      <created>1544408610048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544408610048</updated>
+      <workItem from="1544408614341" duration="1988000" />
+      <workItem from="1544507185551" duration="9007000" />
+      <workItem from="1544576867571" duration="610000" />
+      <workItem from="1544608423825" duration="609000" />
+      <workItem from="1544663607631" duration="23009000" />
+      <workItem from="1544750028778" duration="9921000" />
+      <workItem from="1545030764086" duration="943000" />
+      <workItem from="1545033478937" duration="3514000" />
+      <workItem from="1545096015025" duration="12872000" />
+      <workItem from="1545182005716" duration="11912000" />
+      <workItem from="1545212676296" duration="1125000" />
+      <workItem from="1545268853000" duration="14547000" />
+      <workItem from="1545355730310" duration="370000" />
+      <workItem from="1545357221325" duration="5302000" />
+      <workItem from="1545364101042" duration="9910000" />
+      <workItem from="1545613930677" duration="18039000" />
+      <workItem from="1545644709959" duration="2895000" />
+      <workItem from="1545700051737" duration="23108000" />
+      <workItem from="1545786447865" duration="9736000" />
+      <workItem from="1545802645849" duration="355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="159772000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.16251354" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2426869" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33694476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32502708" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.2554557" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/person.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/api/java/JavaSparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveparquet/_temporary/0/_temporary/attempt_20181220093820_0002_m_000000_0/.part-00000-f9a08f30-72a0-4676-8301-6941b9a50588.snappy.parquet.crc" />
+    <entry file="file://$PROJECT_DIR$/saveparquet/_temporary/0/_temporary/attempt_20181220093820_0002_m_000000_0/part-00000-f9a08f30-72a0-4676-8301-6941b9a50588.snappy.parquet" />
+    <entry file="file://$PROJECT_DIR$/result/.part-00000-898bbcd4-c546-4426-bea4-5b712cdfd58d.snappy.parquet.crc" />
+    <entry file="file://$PROJECT_DIR$/result/part-00000-898bbcd4-c546-4426-bea4-5b712cdfd58d.snappy.parquet" />
+    <entry file="file://$PROJECT_DIR$/src/json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/spark/transforation/RddCllectionOprations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/DataFrameReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/execution/datasources/jdbc/JdbcRelationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/DataFrame_Object/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/DataFrame_Object/CreateRddWithdynamic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/DataFrame_Object/Text_DataFrame_Rdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamIngKafka.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/Consumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/ProducerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/ProducerThred.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/ProduceTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="140" column="12" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/DemoCallBack.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/KafkaProperties.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/Producer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/package.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar!/org/apache/kafka/common/config/ConfigDef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="475" selection-start-line="475" selection-end-line="475" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/hello.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/simpleproduce/SimpleProducer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/SimpleProducer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="97" column="65" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/KafkaConsumerProducerDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/SimpleConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/KafkaProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/SparkStreaming/WordCiount.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.1.0/spark-streaming_2.11-2.1.0.jar!/org/apache/spark/streaming/api/java/JavaDStreamLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/dataFrame_mysql/DataFrame_Mysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-950">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka_2.11/1.6.0/spark-streaming-kafka_2.11-1.6.0.jar!/org/apache/spark/streaming/kafka/KafkaUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/Paquet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/Sparksql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/WordCount8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="132" column="46" lean-forward="true" selection-start-line="132" selection-start-column="46" selection-end-line="132" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/WordCount7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingReciver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/util/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingDirect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1115">
+          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/SparkStreaming/UpdateStateByKey_Suanzi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spark</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.clearspring.analytics:stream:2.7.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
