@@ -36,7 +36,7 @@ public class KafkaSparkStreamingWithZookeeperoffset {
          * 从zookeeper 中获取一个组从一个分区中消费的offset
          */
 
-        Map<TopicAndPartition, Long> consumerOffsets = GetTopicOffsetFromZookeeper.getConsumerOffsets("127.0.0.1:2181", "consumergroup", "www");
+        Map<TopicAndPartition, Long> consumerOffsets = GetTopicOffsetFromZookeeper.getConsumerOffsets("127.0.0.1:2181", "group1", "www");
 
 
         Set<Map.Entry<TopicAndPartition, Long>> entries =
@@ -59,100 +59,111 @@ public class KafkaSparkStreamingWithZookeeperoffset {
             zqg.putAll(consumerOffsets);
         }
 //
-//        JavaStreamingContext jsc = SparkStreamingDirect.getStreamingContext(zqg,"group1");
-
-        SparkConf sparkConf = new SparkConf();
-        sparkConf.setMaster("local[2]");
-        sparkConf.setAppName("zookeepManageOffsetReloadData");
-        JavaStreamingContext javaStreamingContext = new JavaStreamingContext(sparkConf, Durations.seconds(5));
+        JavaStreamingContext jsc = SparkStreamingDirect.getStreamingContext(zqg,"group1");
 
 
+         jsc.sparkContext().setLogLevel("warn");
 
-
-        /**
-         * kafka集群的节点地址
-         */
-        HashMap<String, String> brokerMap = new HashMap<>();
-        brokerMap.put("metadata.broker.list","127.0.0.1:9092");
-
-        /**
-         * 主题的集合
-         */
-        HashSet<String> topicSet = new HashSet<>();
-
-        topicSet.add("www");
-        JavaInputDStream<String> line = KafkaUtils.createDirectStream(
-                javaStreamingContext,
-                String.class,
-                String.class,
-                StringDecoder.class,
-                StringDecoder.class,
-                String.class,
-                brokerMap,
-                consumerOffsets,
-                new Function<MessageAndMetadata<String, String>, String>() {
-                    @Override
-                    public String call(MessageAndMetadata<String, String> v1) throws Exception {
-                        return v1.message();
-                    }
-                }
-        );
-
-        JavaDStream<String> transform = line.transform(new Function<JavaRDD<String>, JavaRDD<String>>() {
-
-            @Override
-            public JavaRDD<String> call(JavaRDD<String> stringJavaRDD) throws Exception {
-
-                stringJavaRDD.foreach(new VoidFunction<String>() {
-                    @Override
-                    public void call(String s) throws Exception {
-
-                        System.out.println(s);
-                    }
-                });
-                return stringJavaRDD;
-            }
-        });
-
-        JavaDStream<String> stringJavaDStream = transform.flatMap(new FlatMapFunction<String, String>() {
-            @Override
-            public Iterator<String> call(String s) throws Exception {
-                String[] split = s.split("\t");
-                Iterator<String> iterator = Arrays.asList(split).iterator();
-                return iterator;
-            }
-        });
-        JavaPairDStream<String, Integer> stringIntegerJavaPairDStream = stringJavaDStream.mapToPair(new PairFunction<String, String, Integer>() {
-            @Override
-            public Tuple2<String, Integer> call(String s) throws Exception {
-
-                Tuple2<String, Integer> stringIntegerTuple2 = new Tuple2<>(s, 1);
-                return stringIntegerTuple2;
-            }
-        });
-        JavaPairDStream<String, Integer> stringIntegerJavaPairDStream1 = stringIntegerJavaPairDStream.reduceByKey(new Function2<Integer, Integer, Integer>() {
-            @Override
-            public Integer call(Integer integer, Integer integer2) throws Exception {
-
-                return integer + integer2;
-            }
-        });
-
-        stringIntegerJavaPairDStream.print();
-
-
-        /**
-         * flatmap 将一行拆分为多行
-         * 返回迭代器
-         */
-
-        javaStreamingContext.sparkContext().setLogLevel("warn");
-        javaStreamingContext.start();
+        jsc.start();
         try {
-            javaStreamingContext.awaitTermination();
+            jsc.awaitTermination();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+
+//        SparkConf sparkConf = new SparkConf();
+//        sparkConf.setMaster("local[2]");
+//        sparkConf.setAppName("zookeepManageOffsetReloadData");
+//        JavaStreamingContext javaStreamingContext = new JavaStreamingContext(sparkConf, Durations.seconds(5));
+//
+//
+//
+//
+//        /**
+//         * kafka集群的节点地址
+//         */
+//        HashMap<String, String> brokerMap = new HashMap<>();
+//        brokerMap.put("metadata.broker.list","127.0.0.1:9092");
+//
+//        /**
+//         * 主题的集合
+//         */
+//        HashSet<String> topicSet = new HashSet<>();
+//
+//        topicSet.add("www");
+//        JavaInputDStream<String> line = KafkaUtils.createDirectStream(
+//                javaStreamingContext,
+//                String.class,
+//                String.class,
+//                StringDecoder.class,
+//                StringDecoder.class,
+//                String.class,
+//                brokerMap,
+//                consumerOffsets,
+//                new Function<MessageAndMetadata<String, String>, String>() {
+//                    @Override
+//                    public String call(MessageAndMetadata<String, String> v1) throws Exception {
+//                        return v1.message();
+//                    }
+//                }
+//        );
+//
+//        JavaDStream<String> transform = line.transform(new Function<JavaRDD<String>, JavaRDD<String>>() {
+//
+//            @Override
+//            public JavaRDD<String> call(JavaRDD<String> stringJavaRDD) throws Exception {
+//
+//                stringJavaRDD.foreach(new VoidFunction<String>() {
+//                    @Override
+//                    public void call(String s) throws Exception {
+//
+//                        System.out.println(s);
+//                    }
+//                });
+//                return stringJavaRDD;
+//            }
+//        });
+//
+//        JavaDStream<String> stringJavaDStream = transform.flatMap(new FlatMapFunction<String, String>() {
+//            @Override
+//            public Iterator<String> call(String s) throws Exception {
+//                String[] split = s.split("\t");
+//                Iterator<String> iterator = Arrays.asList(split).iterator();
+//                return iterator;
+//            }
+//        });
+//        JavaPairDStream<String, Integer> stringIntegerJavaPairDStream = stringJavaDStream.mapToPair(new PairFunction<String, String, Integer>() {
+//            @Override
+//            public Tuple2<String, Integer> call(String s) throws Exception {
+//
+//                Tuple2<String, Integer> stringIntegerTuple2 = new Tuple2<>(s, 1);
+//                return stringIntegerTuple2;
+//            }
+//        });
+//        JavaPairDStream<String, Integer> stringIntegerJavaPairDStream1 = stringIntegerJavaPairDStream.reduceByKey(new Function2<Integer, Integer, Integer>() {
+//            @Override
+//            public Integer call(Integer integer, Integer integer2) throws Exception {
+//
+//                return integer + integer2;
+//            }
+//        });
+//
+//        stringIntegerJavaPairDStream.print();
+//
+//
+//        /**
+//         * flatmap 将一行拆分为多行
+//         * 返回迭代器
+//         */
+//
+//        javaStreamingContext.sparkContext().setLogLevel("warn");
+//        javaStreamingContext.start();
+//        try {
+//            javaStreamingContext.awaitTermination();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
     }
 
 

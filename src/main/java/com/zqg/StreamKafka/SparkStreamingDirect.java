@@ -95,7 +95,7 @@ public class SparkStreamingDirect {
                 ObjectMapper objectMapper = new ObjectMapper();
 
                 CuratorFramework  curatorFramework = CuratorFrameworkFactory.builder()
-                        .connectString("node3:2181,node4:2181,node5:2181").connectionTimeoutMs(1000)
+                        .connectString("127.0.0.1:2181").connectionTimeoutMs(1000)
                         .sessionTimeoutMs(10000).retryPolicy(new RetryUntilElapsed(1000, 1000)).build();
 
                 curatorFramework.start();

@@ -34,7 +34,7 @@ public class KafkaSparkStreamingReciver {
         JavaPairReceiverInputDStream<String, String> consumergroup = KafkaUtils.createStream(
                 javaStreamingContext,
                 "127.0.0.1:2181",
-                "consumergroup"
+                "group1"
                 , stringIntegerHashMap
         );
         JavaDStream < String > words = consumergroup.flatMap(new FlatMapFunction<Tuple2<String, String>, String>() {

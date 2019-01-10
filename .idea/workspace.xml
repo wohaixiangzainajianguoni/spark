@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64e8eaf7-3b5b-4d06-977b-85fa4ba97833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/ProjectUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/SparkStreamingDirect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/getOffset/GetTopicOffsetFromKafkaBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/getOffset/GetTopicOffsetFromZookeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zqg/tq/TQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zqg/tq/TqMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zqg/tq/TqReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zqg/tq/TqRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/second/lambda/java7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/second/logannalsis/LogModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/second/logannalsis/LogScala.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/second/logannalsis/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/second/logannalsis/log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/second/transformation/RddMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log4j.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingReciver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingReciver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/SparkStreamingDirect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/SparkStreamingDirect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zqg/example/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/example/KafkaProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zqg/example/KafkaProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/example/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zqg/example/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingReciver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingReciver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/SparkStreamingDirect$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zqg/StreamKafka/SparkStreamingDirect$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka/example/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka/example/KafkaProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka/example/Producer.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,10 +46,11 @@
     <session id="-1775392407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="3" />
@@ -37,117 +61,86 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="16" />
+          <entry key="class" value="23" />
           <entry key="crc" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="206" />
-          <entry key="json" value="4" />
+          <entry key="java" value="244" />
+          <entry key="json" value="6" />
           <entry key="parquet" value="5" />
-          <entry key="properties" value="1" />
-          <entry key="scala" value="5" />
-          <entry key="txt" value="1" />
-          <entry key="xml" value="27" />
+          <entry key="properties" value="2" />
+          <entry key="scala" value="8" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="16" />
+          <entry key="CLASS" value="23" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="206" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Properties" value="1" />
-          <entry key="Scala" value="5" />
-          <entry key="XML" value="27" />
+          <entry key="JAVA" value="244" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Properties" value="2" />
+          <entry key="Scala" value="8" />
+          <entry key="XML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="61" />
-          <entry key="java" value="29757" />
-          <entry key="xml" value="117" />
+          <entry key="java" value="47081" />
+          <entry key="scala" value="576" />
+          <entry key="xml" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29755" />
+          <entry key="JAVA" value="47079" />
           <entry key="PLAIN_TEXT" value="61" />
           <entry key="RegExp" value="2" />
-          <entry key="XML" value="117" />
+          <entry key="Scala" value="576" />
+          <entry key="XML" value="120" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/second/logannalsis/LogUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingReciver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/second/logannalsis/LogModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="462">
+              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/ProjectUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/second/logannalsis/log.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="213">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/getOffset/GetTopicOffsetFromKafkaBroker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/getOffset/GetTopicOffsetFromZookeeper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -158,6 +151,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Package Object" />
+        <option value="Scala Object" />
         <option value="Class" />
       </list>
     </option>
@@ -174,20 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/filter/RDD.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/map/SubFunction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/map/RddMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/RddCllectionOprations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/flatmap/RddFlatMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/KeyValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/GroupByKey.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/join/join.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/join/RddJoin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/cogroup/CoGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/ContextUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/spark/union/Union.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/actions/reduce/RddReduce.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/sort/Bean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/sort/SecondSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/sparksql/Sparksql.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/sparksql/Text_DataFrame_Rdd.java" />
@@ -219,12 +199,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/SparkStreaming/WordCiount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/SparkStreaming/UpdateStateByKey_Suanzi.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingDirect.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/ProjectUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/getOffset/GetTopicOffsetFromZookeeper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/SparkStreamingDirect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingReciver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/SparkStreamingDirect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/tq/TQ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/tq/TqRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zqg/tq/TqMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/BroadCast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/RddMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/transformation/transformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/lambda/java7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/transformation/RddMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/LogScala.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/second/logannalsis/LogScala.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/second/logannalsis/log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/logannalsis/LogModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/logannalsis/LogUtil.java" />
       </list>
     </option>
   </component>
@@ -260,10 +254,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-112" />
-    <option name="y" value="177" />
+    <option name="x" value="158" />
+    <option name="y" value="133" />
     <option name="width" value="1618" />
-    <option name="height" value="710" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -301,7 +295,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zqg" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark" type="b2602c69:ProjectViewProjectNode" />
@@ -309,40 +303,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zqg" type="462c0819:PsiDirectoryNode" />
-              <item name="StreamKafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zqg" type="462c0819:PsiDirectoryNode" />
-              <item name="StreamKafka" type="462c0819:PsiDirectoryNode" />
-              <item name="getOffset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="logannalsis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545818663144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547123067001" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -370,13 +346,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KafkaSparkStreamingWithZookeeperoffset">
-    <configuration name="KafkaSparkStreamingReciver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zqg.StreamKafka.KafkaSparkStreamingReciver" />
+  <component name="RunManager" selected="Application.LogUtil">
+    <configuration name="LogScala" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="second.logannalsis.LogScala" />
       <module name="spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zqg.StreamKafka.*" />
+          <option name="PATTERN" value="second.logannalsis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,12 +360,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaSparkStreamingWithZookeeperoffset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zqg.StreamKafka.KafkaSparkStreamingWithZookeeperoffset" />
+    <configuration name="LogUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second.logannalsis.LogUtil" />
       <module name="spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zqg.StreamKafka.*" />
+          <option name="PATTERN" value="second.logannalsis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RddMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second.transformation.RddMap" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second.transformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second.lambda.java7" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second.logannalsis.log" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second.logannalsis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,13 +413,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KafkaSparkStreamingWithZookeeperoffset" />
-      <item itemvalue="Application.KafkaSparkStreamingReciver" />
+      <item itemvalue="Application.RddMap" />
+      <item itemvalue="Application.java7" />
+      <item itemvalue="Application.log" />
+      <item itemvalue="Application.LogScala" />
+      <item itemvalue="Application.LogUtil" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KafkaSparkStreamingWithZookeeperoffset" />
-        <item itemvalue="Application.KafkaSparkStreamingReciver" />
+        <item itemvalue="Application.LogUtil" />
+        <item itemvalue="Application.log" />
+        <item itemvalue="Application.LogScala" />
+        <item itemvalue="Application.RddMap" />
+        <item itemvalue="Application.java7" />
       </list>
     </recent_temporary>
   </component>
@@ -439,16 +460,24 @@
       <workItem from="1545786447865" duration="9736000" />
       <workItem from="1545802645849" duration="12878000" />
       <workItem from="1545817663309" duration="1014000" />
+      <workItem from="1545874158801" duration="3821000" />
+      <workItem from="1545961131737" duration="4118000" />
+      <workItem from="1546045951504" duration="6710000" />
+      <workItem from="1546823427879" duration="149000" />
+      <workItem from="1546912318486" duration="7532000" />
+      <workItem from="1546999418973" duration="21706000" />
+      <workItem from="1547084972939" duration="22945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173309000" />
+    <option name="totallyTimeSpent" value="240290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1988273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,7 +486,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16251354" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28199565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33188722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3362256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,7 +496,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.324295" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32212582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -501,117 +530,30 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/second/logannalsis/LogUtil.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/second/logannalsis/LogUtil.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spark.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/spark/transforation/RddCllectionOprations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/DataFrameReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar!/org/apache/spark/sql/execution/datasources/jdbc/JdbcRelationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/DataFrame_Object/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/DataFrame_Object/CreateRddWithdynamic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/DataFrame_Object/Text_DataFrame_Rdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamIngKafka.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/ProducerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/ProducerThred.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/ProduceTest.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="140" column="12" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/DemoCallBack.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/KafkaProperties.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/Producer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/package.scala" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar!/org/apache/kafka/common/config/ConfigDef.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="475" selection-start-line="475" selection-end-line="475" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/hello.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/simpleproduce/SimpleProducer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/SimpleProducer.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="97" column="65" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/KafkaConsumerProducerDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/scriptFile.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/profucer/SimpleConsumer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/KafkaProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/Producer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/example/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/example/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/example/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
@@ -630,13 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="17" column="15" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/dataFrame_mysql/DataFrame_Mysql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -665,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,9 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,47 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/SparkStreaming/UpdateStateByKey_Suanzi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.8.2.2/kafka_2.11-0.8.2.2.jar!/kafka/common/TopicAndPartition.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/SparkStreamingDirect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="47" column="73" lean-forward="true" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
-          <folding>
-            <element signature="e#1816#1832#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingDirect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,57 +631,278 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/ProjectUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/getOffset/GetTopicOffsetFromKafkaBroker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/getOffset/GetTopicOffsetFromZookeeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+        <state relative-caret-position="1025">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingReciver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="519">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingDirect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/util/DynamicVariable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.1.0/spark-streaming_2.11-2.1.0.jar!/org/apache/spark/streaming/scheduler/JobGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/SparkStreamingDirect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="123" column="19" lean-forward="true" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/StreamKafka/KafkaSparkStreamingWithZookeeperoffset.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/actions/reduce/RddReduce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
+        <state relative-caret-position="175">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sort/Bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/spark/transforation/cogroup/CoGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/SparkStreaming/UpdateStateByKey_Suanzi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sparksql/dataFrame_mysql/DataFrame_Mysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/sort/SecondSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/tq/TQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/tq/TqReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar!/org/jboss/netty/util/internal/StringUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="63" column="45" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/tq/TqMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="59" lean-forward="true" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zqg/tq/TqRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/second/transformation/transformation.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="119" column="29" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/broadcast/BroadcastManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/api/java/function/FlatMapFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/second/lambda/java7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/second/BroadCast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/api/java/JavaPairRDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/second/transformation/RddMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="674" column="21" lean-forward="true" selection-start-line="674" selection-start-column="21" selection-end-line="674" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/second/LogScala.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#16#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/second/logannalsis/LogScala.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar!/org/apache/spark/api/java/JavaRDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/second/logannalsis/log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/second/logannalsis/LogModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/second/logannalsis/LogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -851,7 +964,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -871,7 +983,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.clearspring.analytics:stream:2.7.0</last-edited>
+          <last-edited>Maven: com.esotericsoftware:kryo-shaded:3.0.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
