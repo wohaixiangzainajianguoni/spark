@@ -1,4 +1,4 @@
-package second.logannalsis;
+package sparksql;
 
 public class LogModel {
 

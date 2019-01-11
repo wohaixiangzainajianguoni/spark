@@ -1,11 +1,11 @@
-package second.logannalsis;
+package sparksql;
 
 public class LogUtil {
 
 //   10.0.0.153  # - # - #[12/Mar/2004:12:23:18-0800]#"GET /cgi-bin/mailgraph.cgi/mailgraph_3_err.png HTTP/1.1"#200#5554
 //         0            1      2                  3                                                     4                                                                                   5       6
 
-  public  static  LogModel  parseLog(String line)
+  public  static LogModel parseLog(String line)
     {
         System.out.println(line);
         String[] split = line.split("#");
