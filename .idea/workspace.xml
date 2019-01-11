@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64e8eaf7-3b5b-4d06-977b-85fa4ba97833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sparksql/LogModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sparksql/LogUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sparksql/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sparksql/RddtoDataFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sparksql/SqlLogAnasys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sparksql/log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/second/logannalsis/LogModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/second/logannalsis/LogModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/second/logannalsis/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/second/logannalsis/LogUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/second/logannalsis/log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/second/logannalsis/log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/second/logannalsis/LogModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/second/logannalsis/LogModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/second/logannalsis/LogUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/second/logannalsis/LogUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/second/logannalsis/log$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/second/logannalsis/log$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/second/logannalsis/log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/second/logannalsis/log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sparksql/log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sparksql/log.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,7 +44,7 @@
           <entry key="class" value="23" />
           <entry key="crc" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="259" />
+          <entry key="java" value="260" />
           <entry key="json" value="6" />
           <entry key="parquet" value="5" />
           <entry key="properties" value="2" />
@@ -70,7 +57,7 @@
         <counts>
           <entry key="CLASS" value="23" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="259" />
+          <entry key="JAVA" value="260" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="Properties" value="2" />
           <entry key="Scala" value="10" />
@@ -80,14 +67,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="61" />
-          <entry key="java" value="52617" />
+          <entry key="java" value="53124" />
           <entry key="scala" value="576" />
           <entry key="xml" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="52615" />
+          <entry key="JAVA" value="53122" />
           <entry key="PLAIN_TEXT" value="61" />
           <entry key="RegExp" value="2" />
           <entry key="Scala" value="576" />
@@ -101,8 +88,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sparksql/log.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state relative-caret-position="430">
+              <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sparksql/LogModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -279,7 +275,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547202527184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547203395354" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -429,12 +425,12 @@
       <workItem from="1546912318486" duration="7532000" />
       <workItem from="1546999418973" duration="21706000" />
       <workItem from="1547084972939" duration="23549000" />
-      <workItem from="1547169581643" duration="16654000" />
+      <workItem from="1547169581643" duration="17518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257548000" />
+    <option name="totallyTimeSpent" value="258412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -449,7 +445,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16251354" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2483731" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27006507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3362256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -882,9 +878,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/sparksql/LogUtil.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sparksql/LogModel.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sparksql/LogScala.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -899,10 +892,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sparksql/LogModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sparksql/log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="430">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
         </state>
       </provider>
     </entry>

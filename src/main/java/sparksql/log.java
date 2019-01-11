@@ -37,7 +37,29 @@ public class log {
         Dataset<Row> dataFrame = sqlContext.createDataFrame(map, LogModel.class);
 
         dataFrame.registerTempTable("log");
-        Dataset<Row> sql = sqlContext.sql("select min(contentSize) from  log");
+        Dataset<Row> min = sqlContext.sql("select min(contentSize) from  log");
+
+        min.show();
+        Dataset<Row> max = sqlContext.sql("select max(contentSize) from  log");
+         max.show();
+        Dataset<Row> avg = sqlContext.sql("select avg(contentSize) from  log");
+        avg.show();
+
+        Dataset<Row> countCode = sqlContext.sql("select responseCode,count(responseCode) from  log  group by responseCode");
+        countCode.show();
+
+
+        Dataset<Row> ipaddressCount = sqlContext.sql("  select  * from (     select  ipAddress ,count(ipAddress) as coo from log group  by ipAddress  ) " +
+                "temp " +
+                "where temp.coo>2" +
+                " ");
+
+
+
+        ipaddressCount.show();
+
+
+
 
 
 //        dataFrame.show();
